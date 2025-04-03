@@ -3,9 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Test</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello world!</h1>
+    <div class="container">
+      <h1 class="container__question">
+        Вопрос: Какой результат будет у выражения 1 + "2" в Javascript?
+      </h1>
+      <ul class="container__answer" data-js-container>
+        <li class="container__answer-item" data-js-item>3</li>
+        <li class="container__answer-item" data-js-item>"12"</li>
+        <li class="container__answer-item" data-js-item>12</li>
+        <li class="container__answer-item" data-js-item>"3"</li>
+      </ul>
+      <div class="container__result" data-js-result>Правильно!</div>
+    </div>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -8,7 +8,7 @@ class Questions {
 
   innerTextResult = {
     true: "Правильно!",
-    false: "Не верно!",
+    false: "Неверно!",
   };
 
   trueAnswer = '"12"';
@@ -32,7 +32,7 @@ class Questions {
 
     this.itemCollection.forEach((item) => {
       if (isCorrect) {
-        target.classList.add("true"); 
+        target.classList.add("true");
         item.classList.remove("false");
       } else {
         item.classList.remove("true");
